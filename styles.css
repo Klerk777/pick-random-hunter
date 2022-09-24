@@ -1,0 +1,52 @@
+body {
+  background-image: url(./images/hunt-showdown-bg-img-1080.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-position: center; */
+}
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 80px 40px;
+}
+.title {
+  font-weight: 700;
+  font-size: 32px;
+}
+.input-label {
+  font-size: 20px;
+}
+.hunter-input {
+  width: 150px;
+  height: 40px;
+  border-radius: 10px;
+  padding: 8px;
+}
+.btn-result-wrap {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+.choose-btn {
+  width: 300px;
+  height: 50x;
+  padding: 8px;
+  border: 0;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  font-size: 20px;
+}
+.result-label {
+  font-size: 18px;
+}
+.result {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  background-color: rgba(182, 76, 76, 0.527);
+  border-radius: 50%;
+}
