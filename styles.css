@@ -1,5 +1,6 @@
 body {
   background-image: url(./images/hunt-showdown-bg-img-1080.jpg);
+  background-position-y: -105px;
   background-size: cover;
   background-repeat: no-repeat;
   /* background-position: center; */
@@ -8,7 +9,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 30px;
-  padding: 80px 40px;
+  padding: 10px 40px;
 }
 .title {
   font-weight: 700;
